@@ -1,6 +1,6 @@
-# react-starter
+# Tema 5, codealong 1
 
-Et enkelt og greit starterprosjekt for å lage React-apper uten å bruke create-react-app. Gir deg mer oversikt og kontroll over hva som faktisk skjer i prosessen når vi lager React-apper, og lar deg styre byggeprosessen i Webpack i større grad.
+En veldig enkel app for å skrive inn en URL, og deretter vise responsen som kommer tilbake fra endepunktet for brukeren.
 
 ## Komme i gang
 + Klon prosjektet lokalt med `npx degit vegar-codes/react-starter <mappenavn>`.
