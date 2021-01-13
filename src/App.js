@@ -1,5 +1,6 @@
 import React from 'react';
 
+import GlobalStyle from './components/GlobalStyle';
 import HomeContainer from './containers/HomeContainer';
 
 import {
@@ -11,6 +12,7 @@ import {
 function App() {
   return (
     <>
+      <GlobalStyle />
       <Router>
         <Switch>
           <Route path="/">
