@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import PageTitle from '../../components/PageTitle';
+
 function HomeContainer() {
   const [url, setUrl] = useState('');
   const [responseData, setResponseData] = useState(null);
@@ -30,6 +32,7 @@ function HomeContainer() {
 
   return (
     <main>
+      <PageTitle>Hallo verden!</PageTitle>
       <form name="test-url-form" action="/" method="GET">
         <label htmlFor="url">URL</label><br />
         <input type="text" name="url" id="url" placeholder="Skriv inn URLen du vil teste" onChange={event => handleInput(event)} />
